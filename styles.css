@@ -115,11 +115,45 @@ mark {
 
 /* tp5 edits start here */
 
-#ingredients ul li,
-#equipment ul li,
-#directions ol li,
-#icinghead,
-#extra ol li {
+#ingredients ul,
+#equipment ul,
+#directions ol,
+#extra ol {
   visibility: hidden;
   display: none;
+}
+
+#ingredients.showMe ul,
+#equipment.showMe ul,
+#directions.showMe ol,
+#extra.showMe ol {
+  visibility: visible;
+  display: block;
+}
+
+#new {
+  display: block;
+  background-color: #D2ABDB;
+  padding: 2em;
+}
+
+#new p {
+  font-family: 'Vollkorn', serif;
+  font-align: center;
+}
+
+#title.headline {
+  padding-top: 40vh;
+  padding-left: 5vw;
+  color: teal;
+  font-family: 'Vollkorn', serif;
+  text-shadow: 4px 4px #331839;
+}
+
+#title {
+  padding-top: 40vh;
+  padding-left: 5vw;
+  color: white;
+  font-family: 'Vollkorn', serif;
+  text-shadow: 4px 4px #331839;
 }
